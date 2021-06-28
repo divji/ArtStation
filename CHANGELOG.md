@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.1](https://github.com/divji/Backpack/compare/v0.0.0...v0.0.1) (2021-06-28)
+
+
+### CI
+
+* add github actions releaser ([ee87ac2](https://github.com/divji/Backpack/commit/ee87ac270ec7f23a661f3a5350f21854b67a5606))
+
 ## 0.0.0 (2021-06-28)
 
 
