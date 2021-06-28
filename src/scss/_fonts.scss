@@ -1,5 +1,8 @@
 @import './mixins/font-face';
 
-@include font-face('Fira Sans', '../fonts/dest/FiraSans-Light', 300);
-@include font-face('Fira Sans', '../fonts/dest/FiraSans-Regular', 400);
-@include font-face('Fira Sans', '../fonts/dest/FiraSans-ExtraBold', 800);
+@include font-face('Cinzel', '../fonts/dest/Cinzel-Regular', 400);
+@include font-face('Italianno', '../fonts/dest/Italianno-Regular', 400);
+@include font-face('Tajawal', '../fonts/dest/Tajawal-Regular', 400);
+@include font-face('Tajawal', '../fonts/dest/Tajawal-Bold', 800);
+@include font-face('Quicksand', '../fonts/dest/Quicksand-Regular', 400);
+@include font-face('Quicksand', '../fonts/dest/Quicksand-Medium', 500);
