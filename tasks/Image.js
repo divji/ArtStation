@@ -142,7 +142,7 @@ let resizeMd3x = () => {
 };
 
 let resizeLg3x = () => {
-	return src(`${paths.images.dest}/.*`)
+	return src(`${paths.images.dest}/*.{jpg,webp,png}`)
 		.pipe(
 			imageresize({
 				width: widthLg + widthLg + widthLg,

@@ -2,24 +2,41 @@
 @import './vars';
 @import './fonts';
 
-h1 {
-    font-family: 'Italianno', sans-serif;
-    font-weight: 300;
-}
-
-::placeholder {
-    color: rgb(128, 128, 128);
-}
-
 body {
- background-color: ghostwhite;    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.test { 
-    background-color: red;
+
+.section_homepage {
+    background: url('../images/dest/large/@3x/home-bg.png') center center no-repeat;
+    background-size: cover;
 }
 
+.container {
+    display: block;
+    max-width: 1440px;
+    height: 100vh;
+    text-align: center;
+    margin: auto
+}
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu button {
+    border: 0;
+    background-color: transparent;
+    font-size: $md-font-size;
+    color: $base-dark-color;
+    text-transform: uppercase;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 800;
+}
 
 
 
