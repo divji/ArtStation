@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/divji/Backpack/compare/v0.0.1...v0.0.2) (2021-07-01)
+
+
+### Features
+
+* add html markup for home page ([bba0581](https://github.com/divji/Backpack/commit/bba05816b81684eccaa744d24a5255be96d02ec6))
+* finish markup home page section ([47ec383](https://github.com/divji/Backpack/commit/47ec383d47335bc1832cdc953d7348ca13df9125))
+
+
+### Bug Fixes
+
+* add correct public path for images and fonts ([8f239ef](https://github.com/divji/Backpack/commit/8f239efcc08bae25ed0ad5a0a7f20d5fe14a3948))
+
 ### [0.0.1](https://github.com/divji/Backpack/compare/v0.0.0...v0.0.1) (2021-06-28)
 
 
