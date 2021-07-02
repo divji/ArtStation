@@ -1,8 +1,10 @@
+@import './mixins/vh-font-size';
+
 $base-dark-color: #252525;
 $base-light-color: #F7F2E7;
 $base-accent-color: #CEFEF3;
 $secondary-accent-color: #78BFAE;
-$xs-font-size: 16px;
-$md-font-size: 20px;
-$lg-font-size: 65px;
-$xl-font-size: 80px;
+$xs-font-size: vh-size(16);
+$md-font-size: vh-size(20);
+$lg-font-size: vh-size(65);
+$xl-font-size: vh-size(80);
