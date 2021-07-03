@@ -1,0 +1,3 @@
+@function vh-size($value, $base: 1080) {
+    @return $value / $base * 100vh; // Device pixel to vh
+}
