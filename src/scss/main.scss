@@ -6,6 +6,12 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    height: 100%;
+    font-size: 16px;
+}
+
+section {
+    height: 100%;
 }
 
 button {
@@ -21,9 +27,11 @@ button {
 .container {
     display: block;
     max-width: 1440px;
+    width: 100%;
     height: 100vh;
     text-align: center;
-    margin: auto
+    margin: auto;
+    overflow: hidden;
 }
 
 header {
@@ -31,7 +39,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 2em;
 }
 
 .header_logo {
@@ -51,18 +59,17 @@ header {
 
 .section_homepage-content {
     display: flex;
-    padding-left: 200px;
 }
 
 h1 {
-    font-size: $lg-font-size;
+    font-size: 4.15rem;
     color: $base-dark-color;
     font-family: 'Cinzel', sans-serif;
     text-align: left;
     font-weight: 400;
     flex-basis: 38%;
-    flex-grow: 0;
     max-width: 480px;
+    margin-left: 4em;
 }
 
 

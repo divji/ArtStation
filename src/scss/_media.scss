@@ -1,0 +1,80 @@
+@import './vars';
+
+// Laptops (Big tablets, Small laptops)
+@media (min-width: 992px) and (max-width: 1199px) and
+(min-height: 1192px) and (max-height: 1299px)
+{
+    // Section Home
+    h1 {
+        font-size: vh-size(70);
+    }
+
+    .header_button-menu button {
+        font-size: vh-size(30);
+    }
+}
+
+// Tablets (Tablets, netbooks)
+@media (min-width: 768px) and (max-width: 991px) and
+(min-height: 868px) and (max-height: 1191px) 
+{
+    // Section Home
+    h1 {
+        font-size: vh-size(70);
+    }
+    .header_button-menu button {
+        font-size: vh-size(30);
+    }
+}
+
+// Small devices (Modern phones)
+@media (min-width: 480px) and (max-width: 767px),
+(min-height: 580px) and (max-height: 867px) 
+{
+    // Section Home
+    h1 {
+        font-size: vh-size(70);
+        flex-basis: 58%;
+        max-width: 680px;
+        margin-left: 2em;
+    }
+
+    .header_button-menu button {
+        font-size: vh-size(30);
+    }
+}
+
+// Small devices (Small phones)
+@media (min-width: 320px) and (max-width: 479px),
+(min-height: 419px) and (max-height: 579px)
+{
+     // Section Home
+    h1 {
+        font-size: vh-size(70);
+        flex-basis: 58%;
+        max-width: 680px;
+        margin-left: 2em;
+    }
+
+    .header_button-menu button {
+        font-size: vh-size(40);
+    }
+}
+
+// Small devices (Smart watches, old phones)
+@media (min-width: 200px) and (max-width: 319px),
+(min-height: 200px) and (max-height: 419px)
+{
+    // Section Home
+    h1 {
+        font-size: vh-size(70);
+    }
+
+    .header_button-menu button {
+        font-size: vh-size(60);
+    }
+}
+
+
+
+
