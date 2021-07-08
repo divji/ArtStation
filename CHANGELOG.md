@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/divji/Backpack/compare/v0.0.2...v0.0.3) (2021-07-08)
+
+
+### Features
+
+* add color and font variables to the project ([6f113f7](https://github.com/divji/Backpack/commit/6f113f7b3f1b8879fe072b0c4ef6003e4f2b9657))
+* add full html markup for the home page ([1fd91e5](https://github.com/divji/Backpack/commit/1fd91e5772b22cebc903ae8b65d99a051a24fd67))
+* add home section styles with responsive design ([d053544](https://github.com/divji/Backpack/commit/d053544beaf96b1ed57315ad1ed95bdfab8ee7d5))
+* add px to vh converter function ([fe1ca8f](https://github.com/divji/Backpack/commit/fe1ca8fbf2d563d17fd62b6b5874e75bac3dc5cc))
+
+
+### Build System
+
+* add src css to the dev stage ([aa9bbd0](https://github.com/divji/Backpack/commit/aa9bbd0be6c1e8e3fc848e7ff6b6bed14e43b7ce))
+
 ### [0.0.2](https://github.com/divji/Backpack/compare/v0.0.1...v0.0.2) (2021-07-01)
 
 
